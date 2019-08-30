@@ -1,1 +1,1 @@
-Enable-WindowsOptionalFeature -Online -FeatureName IIS-ASPNET45
+dism /online /enable-feature /all /featurename:IIS-ASPNET45
