@@ -1,1 +1,1 @@
-Start-Process msiexec -ArgumentList "/i azureCosmosEmulator.msi /quiet /log c:\CosmosEmulator.log"
+Start-Process msiexec -ArgumentList "/i c:\azureCosmosEmulator.msi /quiet /log c:\CosmosEmulator.log"
