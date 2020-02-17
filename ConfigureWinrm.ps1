@@ -1,7 +1,7 @@
 [CmdletBinding()]
 param
 (
-    [Parameter(Mandatory = $true)]
+    [Parameter(Mandatory = $false)]
     [string] $HostName = (Get-NetIPConfiguration |
     Where-Object {
         $_.IPv4DefaultGateway -ne $null -and
